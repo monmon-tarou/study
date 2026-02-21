@@ -15,5 +15,5 @@ for num in range(2, limit + 1):
             prime = False
             break
 
-    if prime == True:
+    if prime:
         print(num)
