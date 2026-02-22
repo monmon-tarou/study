@@ -186,12 +186,12 @@
     ],
     // indent-rainbow の無視パターン
     "indentRainbow.ignoreLinePatterns": [
-        "/[ \\t]*\\*/g",
-        "/[ \\t]+[/]{2}/g"
+        "/[ \t]* [*]/g",
+        "/[ \t]+[/]{2}/g"
     ],
     // スペルチェックが誤作動する日本語の正規表現
     "cSpell.ignoreRegExpList": [
-        "[0-9A-Za-zあ-んア-ン亜-熙績-黒]+"
+        "[０-９Ａ-Ｚａ-zぁ-んァ-ヶ亜-熙績-黒]+"
     ],
     // スペルチェックのホワイトリスト
     "cSpell.userWords": [
