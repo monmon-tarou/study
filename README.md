@@ -2,7 +2,6 @@
 
 ようこそ
 
-
 ## 準備
 
 - VScodeのインストール
@@ -14,6 +13,17 @@
 ## ディレクトリ目次
 
 ### 001. prime_output
-- 素数出力.py
-### 002. vending_machine 
 
+- 素数出力.py
+
+### 002. vending_machine
+
+- 自動販売機.py
+
+### 003. python_practical_recipes
+
+- 
+
+## メモ
+
+VScodeでマークダウンのプイレビューを横に出す → ［Ctrl］＋［K］→［V］
