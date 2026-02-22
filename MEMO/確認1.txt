@@ -112,7 +112,7 @@
     "files.trimFinalNewlines": true,
     // カラー設定
     "workbench.colorCustomizations": {
-        "editorLineNumber.activeForeground": "#00f184",
+        "editorLineNumber.activeForeground": "#00ff84",
         "editorLineNumber.foreground": "#bcbcbc",
         "editor.lineHighlightBackground": "#202020",
         "editor.wordHighlightBackground": "#ffffff00",
@@ -191,7 +191,7 @@
     ],
     // スペルチェックが誤作動する日本語の正規表現
     "cSpell.ignoreRegExpList": [
-        "[０-９Ａ-Ｚａ-zぁ-んァ-ヶ亜-熙績-黒]+"
+        "[０-９Ａ-Ｚａ-ｚぁ-んァ-ヶ亜-熙績-黒]+"
     ],
     // スペルチェックのホワイトリスト
     "cSpell.userWords": [
