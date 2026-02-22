@@ -1,0 +1,241 @@
+{
+    // ウィンドウのコマンドセンター：非表示
+    "window.commandCenter": false,
+    // ウィンドウのタイトル
+    "window.title": "${activeEditorLong}${separator}${rootName}${separator}${activeRepositoryBranchName}",
+    // アクティビティバーの表示：top
+    "workbench.activityBar.location": "top",
+    // カラーテーマ：One Dark Pro
+    "workbench.colorTheme": "One Dark Pro",
+    // アイコンテーマ：material-icon-theme
+    "workbench.iconTheme": "material-icon-theme",
+    // タブの折り返し表示：有効
+    "workbench.editor.wrapTabs": true,
+    // 起動時に開かれるエディタ：なし
+    "workbench.startupEditor": "none",
+    // レイアウトの制御：無効
+    "workbench.layoutControl.enabled": false,
+    // 文字入力時のサジェストを無効にする
+    "editor.quickSuggestions": {
+        "other": "off",
+        "comments": "off",
+        "strings": "off"
+    },
+    // サジェストの一覧：一番上を選択
+    "editor.suggestSelection": "first",
+    // パラメータヒントを非表示
+    "editor.parameterHints.enabled": false,
+    // 空白文字：全て表示
+    "editor.renderWhitespace": "all",
+    // フォントファミリー：HackGen
+    "editor.fontFamily": "HackGen",
+    // ホバー表示の遅延：1000ミリ秒
+    "editor.hover.delay": 1000,
+    // ミニマップを表示
+    "editor.minimap.enabled": true,
+    // ミニマップのスライダー：常に表示
+    "editor.minimap.showSlider": "always",
+    // スティッキースクロール：有効
+    "editor.stickyScroll.enabled": true,
+    // スクロール速度
+    "editor.mouseWheelScrollSensitivity": 3,
+    // 垂直ルーラー：120文字と200文字
+    "editor.rulers": [120, 200],
+    // 非基本ASCII文字のハイライト：無効
+    "editor.unicodeHighlight.nonBasicASCII": false,
+    // HTML 言語設定
+    "[html]": {
+        "editor.tabSize": 2,
+        "editor.defaultFormatter": "vscode.html-language-features",
+        "html.format.wrapLineLength": 0
+    },
+    // XML 言語設定
+    "[xml]": {
+        "editor.tabSize": 2
+    },
+    // Markdown
+    "[markdown]": {
+        "files.trimTrailingWhitespace": false
+    },
+    // SQL
+    "[sql]": {
+        "files.trimTrailingWhitespace": false
+    },
+    // JavaScript
+    "[javascript]": {
+        "editor.tabSize": 4,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    // JSON
+    "[json]": {
+        "editor.tabSize": 4,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    // JSONC
+    "[jsonc]": {
+        "editor.tabSize": 4,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    // CSS
+    "[css]": {
+        "editor.tabSize": 4,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    // Jinja HTML
+    "[jinja-html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    // YAML
+    "[yaml]": {
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    // Python
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.codeActionsOnSave": {
+            "source.fixAll": "explicit",
+            "source.organizeImports": "explicit"
+        },
+        "editor.formatOnType": true
+    },
+    // デフォルトのターミナルプロファイル
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    // 改行コード：LF
+    "files.eol": "\n",
+    // 文字コード自動判別
+    "files.autoGuessEncoding": true,
+    // 保存時に最終行へ空行を追加
+    "files.insertFinalNewline": true,
+    // 保存時に末尾の空白削除
+    "files.trimTrailingWhitespace": true,
+    // 保存時に最終行以降の空行削除
+    "files.trimFinalNewlines": true,
+    // カラー設定
+    "workbench.colorCustomizations": {
+        "editorLineNumber.activeForeground": "#00f184",
+        "editorLineNumber.foreground": "#bcbcbc",
+        "editor.lineHighlightBackground": "#202020",
+        "editor.wordHighlightBackground": "#ffffff00",
+        "editor.wordHighlightBorder": "#606060",
+        "editor.selectionBackground": "#008064a8",
+        "editor.selectionHighlightBackground": "#0020ffc0",
+        "editor.selectionHighlightBorder": "default",
+        "editor.findMatchBackground": "#ff000070",
+        "editor.findMatchBorder": "default",
+        "editor.findMatchHighlightBackground": "#ffee0030",
+        "editor.findMatchHighlightBorder": "default",
+        "tab.border": "#008064",
+        "tab.activeBackground": "#005040",
+        "tab.hoverBackground": "#005040",
+        "statusBar.foreground": "#d6d6d6"
+    },
+    // コメントのハイライト設定
+    "todohighlight.keywords": [
+        {
+            "text": "DEBUG:",
+            "color": "#ffffff",
+            "backgroundColor": "rgba(255, 189, 36, 0.5)",
+            "borderRadius": "5px",
+            "overviewRulerColor": "grey"
+        },
+        {
+            "text": "REVIEW:",
+            "color": "#ffffff",
+            "backgroundColor": "rgba(255, 189, 36, 0.5)",
+            "borderRadius": "5px"
+        },
+        {
+            "text": "NOTE:",
+            "color": "#ffffff",
+            "backgroundColor": "rgba(255, 189, 36, 0.5)",
+            "borderRadius": "5px"
+        },
+        {
+            "text": "HACK:",
+            "color": "#000000",
+            "borderRadius": "5px",
+            "isWholeLine": false
+        },
+        {
+            "text": "TODO:",
+            "color": "red",
+            "backgroundColor": "yellow",
+            "borderRadius": "5px"
+        },
+        {
+            "text": "TEST:",
+            "color": "red",
+            "backgroundColor": "yellow",
+            "borderRadius": "5px"
+        }
+    ],
+    // indent-rainbow
+    "indentRainbow.ignoreErrorLanguages": [
+        "markdown",
+        "plaintext"
+    ],
+    "indentRainbow.errorColor": "rgba(128, 32, 32, 0.2)",
+    "indentRainbow.tabmixColor": "rgba(128, 132, 96, 0.2)",
+    "indentRainbow.indicatorStyle": "light",
+    "indentRainbow.lightIndicatorStyleLineWidth": 1,
+    "indentRainbow.colors": [
+        "rgba(255,255,64,0.3)",
+        "rgba(127,255,127,0.3)",
+        "rgba(255,127,255,0.3)",
+        "rgba(79,236,236,0.3)"
+    ],
+    // indent-rainbow の無視パターン
+    "indentRainbow.ignoreLinePatterns": [
+        "/[ \\t]*\\*/g",
+        "/[ \\t]+[/]{2}/g"
+    ],
+    // スペルチェックが誤作動する日本語の正規表現
+    "cSpell.ignoreRegExpList": [
+        "[0-9A-Za-zあ-んア-ン亜-熙績-黒]+"
+    ],
+    // スペルチェックのホワイトリスト
+    "cSpell.userWords": [
+        "aladin",
+        "amswatch",
+        "autoflush",
+        "autoload",
+        "automap",
+        "bento",
+        "classpath",
+        "configcode",
+        "cpus",
+        "cssless",
+        "esbenp",
+        "gtid",
+        "iccid",
+        "imsi",
+        "innodb",
+        "jsonify",
+        "levelname",
+        "lsyncd",
+        "maxscale",
+        "mktime",
+        "moca",
+        "msisdn",
+        "parens",
+        "poolclass",
+        "representation",
+        "rgba",
+        "rockylinux",
+        "servicecode",
+        "sjis",
+        "sqlalchemy",
+        "tabmix",
+        "testfixtures",
+        "testtools",
+        "thop",
+        "timedatectl",
+        "tinyint",
+        "todohighlight",
+        "vsintellicode",
+        "webdav",
+        "wsrep"
+    ],
+    // コマンドセンター無効化
+    "chat.commandCenter.enabled": false
+}
