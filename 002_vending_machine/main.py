@@ -20,12 +20,12 @@ choice = input("\n購入する商品名を入力してください: ")
 
 # 購入処理
 if choice not in items:
-    print("その商品はありません。")
+    print("その商品は売り切れですよ")
 else:
     price = items[choice]
     if money >= price:
         change = money - price
-        print(f"\n{choice} を購入しました！")
-        print(f"お釣りは {change} 円です。")
+        print(f"\n{choice} を購入しました")
+        print(f"お釣りは {change} 円です")
     else:
-        print("\nお金が足りません。")
+        print("\nお金が足りません")
